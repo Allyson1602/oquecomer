@@ -1,0 +1,45 @@
+.receita * {
+    /* border: 1px solid red; */
+}
+
+.receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.image-comida {
+    width: 70px;
+}
+
+.description {
+    width: 80vw;
+    padding: 2em 0;
+}
+
+.informations {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.ingredients {
+    width: 40%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+}
+.ingredients p {
+    margin: 0;
+}
+
+.preparation-time {
+    text-align: start;
+}
